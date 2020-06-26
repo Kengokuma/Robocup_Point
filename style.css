@@ -1,26 +1,25 @@
-body{
-    background-color: seashell;
+body {
+    font-family: "Avenir Next";
 }
 
-.title{
-    color:coral;
-    padding: 80px 250px; 
-    position: relative;
-    z-index: 1;
-}
-
-.league{
-    position: relative;
-    color:gray;
+.header{
+    background-color:darkslategrey;
+    height: 70px;
     width: 100%;
-    height: 100px;
-    z-index: 2;
+    position: absolute;
+    left: 0px;
+    top: 0px;
 }
 
-.team{
-    position: relative;
-    color: gray;
-    width: 100%;
-    height: 100px;
-    z-index: 2;
+.header-logo{
+    font-size:30px;
+    float:left;
+    color: seashell;
+    padding-top: 13px;
+    padding-left: 30px;
+    padding-right:150px;
 }
+
+.team[
+
+]
