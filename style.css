@@ -2,7 +2,7 @@ body {
     font-family: "Avenir Next";
 }
 
-.header{
+header{
     background-color:darkslategrey;
     height: 70px;
     width: 100%;
@@ -20,6 +20,13 @@ body {
     padding-right:150px;
 }
 
-.team[
+.form{
+    padding-top: 80px;
+    padding-left: 50px;
+    font-size: 20px;
+}
 
-]
+#name{
+    width: 150px;
+    font-size:100%;
+}
