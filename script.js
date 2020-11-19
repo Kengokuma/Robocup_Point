@@ -1,7 +1,4 @@
-function myfunc() {
-        
-    var index = document.getElementById("tile").selectedIndex;
-    var value = document.getElementById("tile").value;
-    
-    alert("You have selected" + value+ ", with index "+index);
+function checkpoint_1(){
+    var checkpoint_1 = document.getElementById("checkpoint_1").value;
+    document.getElementById('point').innerHTML= checkpoint_1;
 }
