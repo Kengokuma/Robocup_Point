@@ -20,44 +20,44 @@
       <h2>チェックポイント</h2>
       <label>1</label>
       <input type="text" id="checkpoint_1" class="form">
-      <input type="button" value="クリア" class="button" onclick="checkpoint_1()">
-      <input type="button" value="進行の停止" class="button">
+      <input type="button" value="クリア" class="clear" onclick="checkpoint_1();this.disabled = true;">
+      <input type="button" value="進行の停止" class="stop" onclick="stop()">
       <br>
       <label>2</label>
       <input type="text" id="checkpoint_2" class="form">
-      <input type="button" value="クリア" class="button">
-      <input type="button" value="進行の停止" class="button">
+      <input type="button" value="クリア" class="clear" onclick="checkpoint_2();this.disabled = true;">
+      <input type="button" value="進行の停止" class="stop" onclick="stop()">
       <br>
       <label>3</label>
       <input type="text" id="checkpoint_3" class="form">
-      <input type="button" value="クリア" class="button">
-      <input type="button" value="進行の停止" class="button">
+      <input type="button" value="クリア" class="clear" onclick="checkpoint_3();this.disabled = true;">
+      <input type="button" value="進行の停止" class="stop" onclick="stop()">
       <br>
       <label>4</label>
       <input type="text" id="checkpoint_4" class="form">
-      <input type="button" value="クリア" class="button">
-      <input type="button" value="進行の停止" class="button">
+      <input type="button" value="クリア" class="clear" onclick="checkpoint_4();this.disabled = true;">
+      <input type="button" value="進行の停止" class="stop" onclick="stop()">
       <br>
       <label>5</label>
       <input type="text" id="checkpoint_5" class="form">
-      <input type="button" value="クリア" class="button">
-      <input type="button" value="進行の停止" class="button">
+      <input type="button" value="クリア" class="clear" onclick="checkpoint_5();this.disabled = true;">
+      <input type="button" value="進行の停止" class="stop" onclick="stop()">
     </div>
     <div class="line">
       <h2>ライン</h2>
-      <input type="button" value="障害物クリア" class="line_button">
-      <input type="button" value="ギャップクリア" class="line_button">
+      <input type="button" value="障害物クリア" class="line_button" onclick="plus_15()">
+      <input type="button" value="ギャップクリア" class="line_button" onclick="plus_10()">
       <br>
-      <input type="button" value="傾斜路クリア" class="line_button">
-      <input type="button" value="バンプクリア" class="line_button">
+      <input type="button" value="傾斜路クリア" class="line_button" onclick="plus_10()">
+      <input type="button" value="バンプクリア" class="line_button" onclick="plus_5()">
     </div>
     <div class="rescue">
       <h2>レスキュー</h2>
-      <input type="button" value="緑の被災者救助" class="line_button">
-      <input type="button" value="銀の被災者救助" class="line_button">
+      <input type="button" value="銀の被災者救助" class="line_button" onclick="plus_15()">
+      <input type="button" value="緑の被災者救助" class="line_button" onclick="plus_30()">
       <br>
-      <input type="button" value="誤発見" class="line_button">
-      <input type="button" value="避難ゾーン脱出" class="line_button">
+      <input type="button" value="避難ゾーン脱出" class="line_button" onclick="escape();this.disabled = true;">
+      <input type="button" value="誤発見" class="green" onclick="minus_5()">
     </div>
     <div class="point">
       <h2>総得点</h2>

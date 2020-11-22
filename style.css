@@ -42,11 +42,19 @@ header{
     margin-bottom: 10px;
 }
 
-.button{
+.clear{
     width: 100px;
     height: 30px;
     font-size: 15px;
     background-color: darkorange;
+    border: none;
+    color: #f8f8f8;
+}
+.stop{
+    width: 100px;
+    height: 30px;
+    font-size: 15px;
+    background-color:darkslategray;
     border: none;
     color: #f8f8f8;
 }
@@ -92,4 +100,13 @@ header{
 #point{
     font-size: 80px;
     margin-top: -20px;
+}
+.green{
+    width: 130px;
+    height: 35px;
+    font-size: 17px;
+    background-color: darkslategrey;
+    border: none;
+    color: #f8f8f8;
+    margin-bottom: 10px;
 }
