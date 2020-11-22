@@ -74,3 +74,31 @@ function escape() {
     point = point + plus_point;
     document.getElementById('point').innerHTML = point;
 }
+var time;
+
+function showtime() {
+    time++;
+    nokori = 480 - time
+    nokori_byo = nokori % 60;
+    nokori_hun = Math.floor(nokori / 60);
+    if (nokori_byo < 10) {
+        nokori_byo = "0" + nokori_byo;
+    }
+    nokori_zikan = nokori_hun + ":" + nokori_byo;
+    document.getElementById("timer_area").innerHTML = nokori_zikan;
+    if (nokori <= 0) {
+        stop_timer();
+        setTimeout('alert("競技を終了して下さい")', 500);
+    }
+}
+function start() {
+    time = 0;
+    TimerID = setInterval('showtime()', 1000);
+    document.getElementById("start").disabled = true;
+    document.getElementById("timer_area").innerHTML = "8:00";
+    plus_5();
+}
+function stop_timer() {
+    clearInterval(TimerID);
+    document.getElementById("start").disabled = false;
+}
