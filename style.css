@@ -84,7 +84,7 @@ header{
     margin-bottom: 10px;
 }
 .rescue{
-    margin-top: -270px;
+    margin-top: -277px;
     margin-left: 150px;
     float: left;
 }
@@ -97,6 +97,7 @@ header{
 
 .point{
     margin-left: 420px;
+    margin-top: -3px;
 }
 .point h2{
     background-color:darkorange ;
@@ -106,7 +107,6 @@ header{
 }
 #point{
     font-size: 80px;
-    margin-top: -20px;
 }
 .green{
     width: 130px;
@@ -119,7 +119,7 @@ header{
 }
 .timer{
    margin-left: 850px;
-   margin-top: -480px;
+   margin-top: -485px;
 }
 #timer_area{
     font-size: 80px;
